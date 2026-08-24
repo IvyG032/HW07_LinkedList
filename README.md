@@ -1,0 +1,13 @@
+# Linkedlist Takeways
+
+Linked lists and pointers have been the biggest pain in my back ever since. However, unlike the very first one I wrote for CS50, which I can barely remember and did with little notion of what was really happening instead of following sample code, this time I fully immersed myself in the black box and how pointers work in computer memory. 
+
+I have always imagined, and that’s how pointers were taught, too, that pointers are like remotes or a link/line that connects from location to location, and that the node is a box that contains both such a remote and data. So because my figurative brain likes to imagine everything in its physical form, a question emerged: if this box has two cells, one contains data, and one contains the remote, don’t they have two different locations then? So where does the prior link necessarily point to? 
+
+If we follow the logic of all lectures, it should point to the data, right? Because you have to follow the trace to find the next data. But how does the program know where the address is stored if all the data is in different sizes and shapes? Turns out, the data themselves are locations, too! So they are stored in the same length, and the program can easily find the box that stores the address by counting bits. So the box actually has two addresses: one points to the actual data, and one points to the next box’s data cell.
+
+This understanding comprehensively deepened my knowledge of pass by reference. When working with non-primitive types, the variables created were just tags that can be removed and stick to any piece of data. To put it more simply, it is a remote that can point anywhere, a pointer!
+
+And the most important reason to have these references/variable names/pointers is so that everything is in fixed and controllable sizes, so that when the system goes to look for certain data, it doesn’t have to worry about where it actually starts and ends, but simply find the pointer and retrieve that piece of information!
+
+I have to admit that during this year of my self-learning journey, I was sometimes caught in the notion that computer science is merely a system made up of passed-down rules and was seldom changed. But as I go deeper and immerse myself in the bare bones of it, I see how brilliant and purely genius those rules were, and it has come back more times than I notice to rekindle my passion to keep learning. And I couldn’t have noticed it without the action of repetition.
