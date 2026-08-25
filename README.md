@@ -1,6 +1,6 @@
 # Linkedlist Takeways
 
-Linked lists and pointers have been the biggest pain in my back ever since. However, unlike the very first one I wrote for CS50, which I can barely remember and did with little notion of what was really happening instead of following sample code, this time I fully immersed myself in the black box and how pointers work in computer memory. 
+Linked lists and pointers have been the biggest pain in my back ever since. However, unlike the very first one I wrote for CS50, which I can barely remember and did with little notion of what was really happening other than following sample code, this time I fully immersed myself in the black box and how pointers work in computer memory. 
 
 I have always imagined, and that’s how pointers were taught, too, that pointers are like remotes or a link/line that connects from location to location, and that the node is a box that contains both such a remote and data. So because my figurative brain likes to imagine everything in its physical form, a question emerged: if this box has two cells, one contains data, and one contains the remote, don’t they have two different locations then? So where does the prior link necessarily point to? 
 
